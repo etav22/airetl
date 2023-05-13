@@ -25,11 +25,12 @@ module_name = "airetl"
 [[tool.poetry.source]]
 name = "pypi-public"
 url = "https://pypi.org/simple/"
-secondary = false
+default = true
 
 [[tool.poetry.source]]
 name = "grpcio"
 url = "https://github.com/dagster-io/build-grpcio/wiki/Wheels"
+default = false
 secondary = true
 
 [build-system]
