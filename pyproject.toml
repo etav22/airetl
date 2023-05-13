@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{ include = "airetl" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9, <=3.11"
 pandas = "^2.0.1"
 requests = "^2.30.0"
 dagster = "^1.3.4"

@@ -3,7 +3,7 @@ export DAGSTER_HOME = $(shell pwd)/.dagster
 install:
 	poetry config virtualenvs.in-project true
 	poetry install
-	pre-commit install
+	poetry run pre-commit install
 test:
 	poetry run pytest -vv
 run:
