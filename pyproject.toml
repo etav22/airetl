@@ -22,17 +22,6 @@ pre-commit = "^3.3.1"
 [tool.dagster]
 module_name = "airetl"
 
-[[tool.poetry.source]]
-name = "pypi-public"
-url = "https://pypi.org/simple/"
-default = true
-
-[[tool.poetry.source]]
-name = "grpcio"
-url = "https://github.com/dagster-io/build-grpcio/wiki/Wheels"
-default = false
-secondary = false
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
