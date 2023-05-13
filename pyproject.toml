@@ -31,7 +31,7 @@ default = true
 name = "grpcio"
 url = "https://github.com/dagster-io/build-grpcio/wiki/Wheels"
 default = false
-secondary = true
+secondary = false
 
 [build-system]
 requires = ["poetry-core"]
