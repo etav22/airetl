@@ -26,7 +26,7 @@ module_name = "airetl"
 name = "grpcio"
 url = "https://github.com/dagster-io/build-grpcio/wiki/Wheels"
 default = false
-secondary = false
+secondary = true
 
 [build-system]
 requires = ["poetry-core"]
